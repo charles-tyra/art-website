@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import logo from './favicon.svg';
 import './App.css';
+import PicturedDiv from './PicturedDiv';
+import background from '././public/[wind-whistling].png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id='background-container'>
+        <img id='background-img' src={background} />
+      </div>
+      {/* &nbsp; is used for tab */}
+      &nbsp; planning on having a drop down menu of the left side.
+      <div className='tester'>
+      <PicturedDiv />
+      </div>
     </div>
   );
 }
