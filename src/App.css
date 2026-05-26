@@ -40,10 +40,22 @@ table {
 }
 /* ^ Reset CSS */
 
+body {
+  overflow: hidden;
+  max-height: fit-content;
+}
+
 #background {
   display: flex;
   position: absolute;
   z-index: -1;
+}
+
+#background-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  overflow: hidden;
 }
 
 #background-img {

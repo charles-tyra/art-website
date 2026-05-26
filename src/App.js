@@ -1,7 +1,7 @@
 // import logo from './favicon.svg';
 import './App.css';
 import PicturedDiv from './PicturedDiv';
-import background from './assets/[wind-whistling].png';
+import background from './assets/test-image.jpg';
 
 function App() {
   return (
