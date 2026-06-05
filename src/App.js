@@ -9,7 +9,7 @@ function App() {
       <div id='background-container'>
         <img id='background-img' src={background} />
       </div>
-      {/* &nbsp; is used for tab */}
+            {/* &nbsp; is used for tab */}
       &nbsp; planning on having a drop down menu of the left side.
       <div className='tester'>
       <PicturedDiv />
