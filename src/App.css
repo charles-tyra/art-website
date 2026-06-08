@@ -67,7 +67,12 @@ body {
 }
 
 .tester {
-  border: 10px black solid;
+  position: absolute;
+  left: 7%;
+  top: 6%;
+
+  border-right: 2px black solid;
+  border-bottom: 1px black solid;
   width: max-content;
   background-color: white;
   cursor: grabbing;

@@ -7,12 +7,12 @@ function App() {
   return (
     <div className="App">
       <div id='background-container'>
-        <img id='background-img' src={background} />
+        <img id='background-img' alt='background' src={background} />
       </div>
             {/* &nbsp; is used for tab */}
-      &nbsp; planning on having a drop down menu of the left side.
+      {/* &nbsp; planning on having a drop down menu of the left side. */}
       <div className='tester'>
-      <PicturedDiv />
+        <PicturedDiv />
       </div>
     </div>
   );
