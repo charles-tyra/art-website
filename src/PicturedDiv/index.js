@@ -13,9 +13,9 @@ function PicturedDiv({pictureCat}) {
         <div onClick={changeDiv}>
         {clicked 
             ? 
-                <div> test div </div> 
+                <div className="standard"> v </div> 
             : 
-                <div> not a test div </div>
+                <div className="dropped"> v </div>
         }
         </div>
     )

@@ -1,0 +1,7 @@
+.dropped {
+    transform: none;
+}
+
+.standard {
+    transform: rotate(270deg);
+}
