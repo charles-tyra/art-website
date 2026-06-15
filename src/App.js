@@ -1,4 +1,4 @@
-// import logo from './favicon.svg';
+import { Routes, Route } from 'react-router';
 import './App.css';
 import PicturedDiv from './PicturedDiv';
 import background from './assets/test-image.jpg';
@@ -10,7 +10,6 @@ function App() {
         <img id='background-img' alt='background' src={background} />
       </div>
             {/* &nbsp; is used for tab */}
-      {/* &nbsp; planning on having a drop down menu of the left side. */}
       <div className='tester'>
         <PicturedDiv />
       </div>
